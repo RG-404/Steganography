@@ -41,4 +41,4 @@ def extract_text(image_path, text_length, information):
         # print("-",ascii_char)
 
 
-extract_text('output/out.png', 48, information)
+extract_text('out.png', 48, information)

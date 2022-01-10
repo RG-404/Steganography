@@ -1,14 +1,14 @@
 from PIL import Image
 
-image = Image.open('output/out.png')
+image = Image.open('out.png')
 pixel_map = image.load()
 
 width = image.size[0]
 height = image.size[1]
 
-n_lsb = 3
+n_lsb = 2
 count = 0
-text_len = len('bisleri paani is good')
+text_len = 16
 binary_stream_length = text_len * 8
 binary_stream = ""
 
